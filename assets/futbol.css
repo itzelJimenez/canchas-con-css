@@ -1,0 +1,72 @@
+h1{
+	background-color: gray;
+}
+#pasto{
+	margin-left: 0px;
+	margin-top: 0px;
+	border: solid 2px black;
+	background-color: green;
+	width:900px;
+    height:500px;
+    position: absolute;
+}
+#porteria1{
+	margin-left: 0px;
+	margin-top: 130px;
+	border: solid 1px white;
+	background-color: green;
+	width:150px;
+    height:250px;
+    position: absolute;
+}
+#porteria2{
+	margin-left: 748px;
+	margin-top: 130px;
+	border: solid 1px white;
+	background-color: green;
+	width:150px;
+    height:250px;
+    position: absolute;
+}
+#semiCirc1 {
+	margin-left: 699px;
+	margin-top: 200px;
+	width: 50px; 
+    height: 100px; 
+    border: 1px solid white;
+    background: green;
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 100px 0 0 100px;
+    position: absolute;
+ }
+#semiCirc2{
+	margin-left: 150px;
+	margin-top: 200px;
+	width: 50px; 
+    height: 100px; 
+    border: 1px solid white;
+    background: green;
+    -moz-border-radius: 0 100px 100px 0;
+    -webkit-border-radius: 0 100px 100px 0;
+    border-radius: 0 100px 100px 0;
+    position: absolute;
+}
+#circulo{
+	margin-left: 400px;
+	margin-top: 200px;
+	width: 100px;
+    height: 100px;
+    border: 1px solid white;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    position: absolute;
+}
+#linea{
+	margin-left: 450px;
+	background-color: white;
+	border-left: 1px solid #ccc; 
+	width:1px; 
+	height:500px; 
+}
