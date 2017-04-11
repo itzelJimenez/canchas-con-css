@@ -2,42 +2,50 @@
 <html>
 	<head>
 		<title>Canchas Deportivas</title>
-		<link rel="stylesheet" type="text/css" href="assets/futbol.css">
-		<link rel="stylesheet" type="text/css" href="assets/tenis.css">
-		<link rel="stylesheet" type="text/css" href="assets/basquet.css">
 		<link rel="stylesheet" type="text/css" href="assets/estilos.css">
 	</head>
 	<body>
-		<header>
-			<h1 align="center">Canchas Deportivas</h1>
-		</header>
+		<h1>Canchas Deportivas</h1>
 		<hr>
-		<article>
+		<section>
 			<input type="button" value="Futbol" class="botones" id="botonFut">
 			<input type="button" value="Basquet" class="botones" id="botonBasq">
 			<input type="button" value="Tenis" class="botones" id="botonTen">
-		</article>
-		<hr>
+		</section>
+		<hr><!--algo-->
 		<section id="futbolCancha">
-			<div id='pasto'>
-				<div id='porteria1'></div>
-				<div id='porteria2'></div>
-				<div id="semiCirc1"></div>
-				<div id="semiCirc2"></div>
-				<div id="circulo"></div>
-				<div id="linea"></div>
+			<div id='pasto' class="verde tCanchas absoluto">
+				<div class="circulos borde cIzq absoluto"></div>
+				<div class="circulos borde cDer absoluto"></div>
+				<div class="canchaIz borde absoluto porteriaFut verde"></div>
+				<div class="canchaD borde absoluto porteriaFut verde"></div>
+				<div class="circuloCentral borde absoluto"></div>
+				<div class="lineaCentral absoluto"></div>
 			</div>
 		</section>
 		<section id="basquetCancha">
-			<div id="basquet">
-				
+			<div id="basquet" class="tCanchas absoluto cafe">
+				<div class="circulos borde cIzq absoluto"></div>
+				<div class="circulos borde cDer absoluto"></div>
+				<div class="diamIzq absoluto borde"></div>
+				<div class="diamDer absoluto borde"></div>
+				<div class="circuloCentral borde absoluto"></div>
+				<div class="lineaCentral absoluto"></div>
 			</div>
 			
 		</section>
 		<section id="tenisCancha">
-			<div id="tenis">
+			<div id="tenis" class="verde tCanchas absoluto">
+				<div class="lineaCentral absoluto borde"></div>
+				<div class="horizontalArriba absoluto borde"></div>
+				<div class="horizontalInf absoluto borde"></div>
+				<div class="horizontalCentro absoluto borde"></div>
+				<div class="verticalIzq absoluto borde"></div>
+				<div class="verticalDer absoluto borde"></div>
+			</div>
 		</section>
+		<label></label>
 
-		<script type="text/javascript" src="assets/main.js"></script>
+		<script type="text/javascript" src="assets/app/app.js"></script>
 	</body>
 </html>

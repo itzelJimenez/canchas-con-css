@@ -7,3 +7,20 @@
     height:500px;
     position: absolute;
 }
+
+#lineaB{
+	margin-left: 450px;
+	background-color: white;
+	border-left: 1px solid #ccc; 
+	width:1px; 
+	height:500px; 
+}
+#circuloB{
+	margin-left: 400px;
+	margin-top: 200px;
+	width: 150px;
+    height: 150px;
+    border: 1px solid white;
+    border-radius: 50%;
+    position: absolute;
+}
